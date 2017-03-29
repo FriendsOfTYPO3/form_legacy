@@ -163,6 +163,7 @@ class FormWizardElement extends AbstractFormElement
     protected function resultAddWizardCss()
     {
         $this->resultArray['stylesheetFiles'][] = 'EXT:form_legacy/Resources/Public/Css/form.css';
+        $this->resultArray['stylesheetFiles'][] = 'EXT:form_legacy/Resources/Public/Css/t3skin.css';
     }
 
     /**
