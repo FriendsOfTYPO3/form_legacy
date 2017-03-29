@@ -71,7 +71,7 @@ $GLOBALS['TCA']['tt_content']['columns']['bodytext']['config']['wizards']['forms
     'notNewRecords' => true,
     'enableByTypeConfig' => 1,
     'type' => 'script',
-    'title' => 'Form wizard',
+    'title' => 'Form Legacy wizard',
     'icon' => 'EXT:backend/Resources/Public/Images/FormFieldWizard/wizard_forms.gif',
     'module' => [
         'name' => 'wizard_form'
