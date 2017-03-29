@@ -6,7 +6,7 @@
 	"license": ["GPL-2.0+"],
 
 	"require": {
-		"typo3/cms-core": "~8.6"
+		"typo3/cms-core": "~8"
 	},
 	"replace": {
 		"form_legacy": "*"
