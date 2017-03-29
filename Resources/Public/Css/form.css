@@ -329,7 +329,7 @@
 #formwizard-left li.validation-error .x-tab-left,
 #formwizard-left div.validation-error .x-accordion-hd {
   margin-right: 14px;
-  background-image: url("../../../../../t3skin/extjs/images/form/exclamation.gif");
+  background-image: url("../Images/exclamation.gif");
   background-position: right 1px;
   background-repeat: no-repeat;
 }
