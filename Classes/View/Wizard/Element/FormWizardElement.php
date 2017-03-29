@@ -150,7 +150,7 @@ class FormWizardElement extends AbstractFormElement
         // enhance global variable for requireJs shim "exports: 'TYPO3.Form.Wizard.Settings'" to work
         $this->resultArray['additionalJavaScriptPost'][] = ';TYPO3.Form = TYPO3.Form || {Wizard:{}};';
         $this->resultArray['additionalJavaScriptPost'][] =
-            ';define("TYPO3/CMS/Form/Wizard/Settings", function() {'
+            ';define("TYPO3/CMS/FormLegacy/Wizard/Settings", function() {'
             . "\n" . '	TYPO3.Form.Wizard.Settings = ' . json_encode($settings) . ';'
             . "\n" . '	return TYPO3.Form.Wizard.Settings;'
             . "\n" . '});';
