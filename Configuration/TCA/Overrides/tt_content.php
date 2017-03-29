@@ -7,7 +7,7 @@ $GLOBALS['TCA']['tt_content']['ctrl']['typeicon_classes']['mailform'] = 'mimetyp
 // check if there is already a forms tab and add the item after that, otherwise
 // add the tab item as well
 $additionalCTypeItem = [
-    'LLL:EXT:frontend/Resources/Private/Language/locallang_ttc.xlf:CType.I.8',
+    'LLL:EXT:form_legacy/Resources/Private/Language/locallang_ttc.xlf:CType.I.8',
     'mailform',
     'content-elements-mailform'
 ];
