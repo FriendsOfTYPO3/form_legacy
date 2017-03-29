@@ -15,6 +15,7 @@ namespace TYPO3\CMS\Form\View\Wizard\Element;
  */
 
 use TYPO3\CMS\Backend\Form\Element\AbstractFormElement;
+use TYPO3\CMS\Core\Page\PageRenderer;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Core\Utility\StringUtility;
 use TYPO3\CMS\Extbase\Service\TypoScriptService;
@@ -189,6 +190,9 @@ class FormWizardElement extends AbstractFormElement
             . ' rows="15" style="" name="data[tt_content][' . $this->getCurrentUid() . '][bodytext]">' . $content . '</textarea>';
             return $this->resultArray;
         }
+
+        $pageRenderer = GeneralUtility::makeInstance(PageRenderer::class);
+        $pageRenderer->loadExtJS();
 
         $this->resultAddWizardCss();
         $this->resultArray['additionalInlineLanguageLabelFiles'] += $this->getLocalization();
