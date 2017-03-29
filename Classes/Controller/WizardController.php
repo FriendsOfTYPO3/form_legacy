@@ -29,7 +29,7 @@ class WizardController
      */
     public function __construct()
     {
-        $this->getLanguageService()->includeLLFile('EXT:form/Resources/Private/Language/locallang_wizard.xlf');
+        $this->getLanguageService()->includeLLFile('EXT:form_legacy/Resources/Private/Language/locallang_wizard.xlf');
     }
 
     /**

@@ -1,22 +1,15 @@
 {
-	"name": "typo3/cms-form",
-	"type": "typo3-cms-framework",
-	"description": "TYPO3 Core",
+	"name": "friendsoftypo3/form-legacy",
+	"type": "typo3-cms-extension",
+	"description": "Legacy version 7 of ext:form",
 	"homepage": "https://typo3.org",
 	"license": ["GPL-2.0+"],
 
 	"require": {
-		"typo3/cms-core": "*"
+		"typo3/cms-core": "~8.6"
 	},
 	"replace": {
-		"form": "*"
-	},
-	"extra": {
-		"typo3/cms": {
-			"Package": {
-				"partOfFactoryDefault": true
-			}
-		}
+		"form_legacy": "*"
 	},
 	"autoload": {
 		"psr-4": {

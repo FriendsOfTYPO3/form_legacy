@@ -13,11 +13,11 @@ tt_content.mailform.20 {
 }
 
 	# Include model definition for all available form elements
-<INCLUDE_TYPOSCRIPT: source="DIR: EXT:form/Configuration/TypoScript/Elements" extensions="ts">
+<INCLUDE_TYPOSCRIPT: source="DIR: EXT:form_legacy/Configuration/TypoScript/Elements" extensions="ts">
 	# Include definition of filters
-<INCLUDE_TYPOSCRIPT: source="DIR: EXT:form/Configuration/TypoScript/Filters" extensions="ts">
+<INCLUDE_TYPOSCRIPT: source="DIR: EXT:form_legacy/Configuration/TypoScript/Filters" extensions="ts">
 	# Include definition of filters
-<INCLUDE_TYPOSCRIPT: source="DIR: EXT:form/Configuration/TypoScript/Validators" extensions="ts">
+<INCLUDE_TYPOSCRIPT: source="DIR: EXT:form_legacy/Configuration/TypoScript/Validators" extensions="ts">
 
 plugin.tx_form {
 	features {

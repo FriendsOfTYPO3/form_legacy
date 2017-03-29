@@ -34,9 +34,10 @@ class FormWizardElement extends AbstractFormElement
     /**
      * Store initialized resultArray
      */
-    protected function initializeResultArray()
+    protected function initializeResultArray(): array
     {
         $this->resultArray = parent::initializeResultArray();
+        return $this->resultArray;
     }
 
     /**
@@ -130,8 +131,8 @@ class FormWizardElement extends AbstractFormElement
      */
     protected function getLocalization()
     {
-        $wizardLabels = 'EXT:form/Resources/Private/Language/locallang_wizard.xlf';
-        $controllerLabels = 'EXT:form/Resources/Private/Language/locallang.xlf';
+        $wizardLabels = 'EXT:form_legacy/Resources/Private/Language/locallang_wizard.xlf';
+        $controllerLabels = 'EXT:form_legacy/Resources/Private/Language/locallang.xlf';
         return [$controllerLabels, $wizardLabels];
     }
 
@@ -160,7 +161,7 @@ class FormWizardElement extends AbstractFormElement
      */
     protected function resultAddWizardCss()
     {
-        $this->resultArray['stylesheetFiles'][] = 'EXT:form/Resources/Public/Css/form.css';
+        $this->resultArray['stylesheetFiles'][] = 'EXT:form_legacy/Resources/Public/Css/form.css';
     }
 
     /**
@@ -194,7 +195,7 @@ class FormWizardElement extends AbstractFormElement
         $settings = $this->getPlainPageWizardModTsConfigSettingsProperties();
         $settingsCommand = $this->resultAddWizardSettingsJson($settings);
         $this->resultArray['requireJsModules'][] = [
-            'TYPO3/CMS/Form/Wizard' => "function(){\n"
+            'TYPO3/CMS/FormLegacy/Wizard' => "function(){\n"
                 //. "\t" . 'console.log(this, arguments);' . "\n"
                 . "\t" . $settingsCommand . "\n"
                 . '}'

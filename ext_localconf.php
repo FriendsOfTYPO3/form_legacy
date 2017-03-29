@@ -4,12 +4,12 @@ defined('TYPO3_MODE') or die();
 if (TYPO3_MODE === 'BE') {
     // Apply PageTSconfig
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addPageTSConfig(
-        '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:form/Configuration/PageTS/modWizards.ts">'
+        '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:form_legacy/Configuration/PageTS/modWizards.ts">'
     );
 
     // Add default User TS Config FORM configuration
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addUserTSConfig(
-        '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:form/Configuration/UserTSconfig/userTSConfig.txt">'
+        '<INCLUDE_TYPOSCRIPT: source="FILE:EXT:form_legacy/Configuration/UserTSconfig/userTSConfig.txt">'
     );
 
     // Backend view
