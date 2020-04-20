@@ -8,8 +8,10 @@
 	"require": {
 		"typo3/cms-core": "~8"
 	},
-	"replace": {
-		"form_legacy": "*"
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "form_legacy"
+		}
 	},
 	"autoload": {
 		"psr-4": {
