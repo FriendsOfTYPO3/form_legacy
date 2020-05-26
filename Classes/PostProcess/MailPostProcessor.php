@@ -18,6 +18,7 @@ use TYPO3\CMS\Core\Mail\Rfc822AddressesParser;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
 use TYPO3\CMS\Core\Utility\MailUtility;
 use TYPO3\CMS\Core\Utility\MathUtility;
+use TYPO3\CMS\Extbase\Configuration\ConfigurationManager;
 use TYPO3\CMS\Extbase\Utility\LocalizationUtility;
 use TYPO3\CMS\Form\Utility\FormUtility;
 
@@ -484,8 +485,9 @@ class MailPostProcessor extends AbstractPostProcessor implements PostProcessorIn
      */
     protected function getView($templateName, $scope = 'Html')
     {
+        /** @var ConfigurationManager $configurationManager */
         $configurationManager = $this->objectManager->get(\TYPO3\CMS\Extbase\Configuration\ConfigurationManager::class);
-        $typoScript = $configurationManager->getConfiguration(\TYPO3\CMS\Extbase\Configuration\ConfigurationManagerInterface::CONFIGURATION_TYPE_FRAMEWORK);
+        $typoScript = $configurationManager->getConfiguration(\TYPO3\CMS\Extbase\Configuration\ConfigurationManagerInterface::CONFIGURATION_TYPE_FRAMEWORK, 'form');
         /** @var \TYPO3\CMS\Fluid\View\StandaloneView $view */
         $view = $this->objectManager->get(\TYPO3\CMS\Fluid\View\StandaloneView::class);
 
