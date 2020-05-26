@@ -118,4 +118,4 @@ if (!is_array($GLOBALS['TCA']['tt_content']['types']['mailform']['columnsOverrid
 if (!is_array($GLOBALS['TCA']['tt_content']['types']['mailform']['columnsOverrides']['bodytext'])) {
     $GLOBALS['TCA']['tt_content']['types']['mailform']['columnsOverrides']['bodytext'] = [];
 }
-$GLOBALS['TCA']['tt_content']['types']['mailform']['columnsOverrides']['bodytext']['config']['renderType'] = 'formwizard';
+$GLOBALS['TCA']['tt_content']['types']['mailform']['columnsOverrides']['bodytext']['config']['renderType'] = 'text';

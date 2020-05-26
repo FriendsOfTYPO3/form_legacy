@@ -1,12 +1,12 @@
 {
 	"name": "friendsoftypo3/form-legacy",
 	"type": "typo3-cms-extension",
-	"description": "Legacy version 7 of ext:form",
+	"description": "Fork from friendsoftypo3/form-legacy / Test to enable it for 9.x ",
 	"homepage": "https://typo3.org",
 	"license": ["GPL-2.0+"],
 
 	"require": {
-		"typo3/cms-core": "~8"
+		"typo3/cms-core": "~9"
 	},
 	"extra": {
 		"typo3/cms": {
