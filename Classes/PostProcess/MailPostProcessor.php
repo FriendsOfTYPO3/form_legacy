@@ -167,7 +167,7 @@ class MailPostProcessor extends AbstractPostProcessor implements PostProcessorIn
      */
     protected function setFrom()
     {
-        if (isset($this->typoScript['senderEmail'])) {
+        if (!empty($this->typoScript['senderEmail'])) {
             $fromEmail = $this->formUtility->renderItem(
                 $this->typoScript['senderEmail.'],
                 $this->typoScript['senderEmail']
