@@ -58,7 +58,7 @@ class LengthValidator extends AbstractValidator
      */
     public function isValid($value)
     {
-        $length = $this->charsetConverter->strlen('utf-8', $value);
+        $length = mb_strlen($value, 'utf-8');
         if ($length < (int)$this->options['minimum']) {
             $this->addError(
                 $this->renderMessage(
