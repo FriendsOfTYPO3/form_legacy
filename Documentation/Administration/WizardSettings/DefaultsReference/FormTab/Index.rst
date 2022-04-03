@@ -23,7 +23,7 @@ of the form or the prefix as well as the post-processor configuration.
 showAccordions
 ==============
 
-(:ts:`mod.wizards.form.defaults.tabs.form.showAccordions`)
+(:typoscript:`mod.wizards.form.defaults.tabs.form.showAccordions`)
 
 :aspect:`Property:`
     showAccordions
@@ -64,7 +64,7 @@ showProperties
     expected and has to be fixed in a coming version of TYPO3. There is
     a workaround which is shown below.
 
-(:ts:`mod.wizards.form.defaults.tabs.form.accordions.attributes.showProperties`)
+(:typoscript:`mod.wizards.form.defaults.tabs.form.accordions.attributes.showProperties`)
 
 :aspect:`Property:`
     showProperties
@@ -81,7 +81,7 @@ showProperties
 
 Since the above shown configuration is not working, the following workaround can
 be applied. To configure the attribute accordion of the form element, address the
-object directly via :ts:`mod.wizards.form.elements.form.accordions.attributes.showProperties`.
+object directly via :typoscript:`mod.wizards.form.elements.form.accordions.attributes.showProperties`.
 
 
 .. _wizard-settings-defaults-form-postprocessor:
@@ -95,7 +95,7 @@ Post-processors accordion
 showPostProcessors
 ------------------
 
-(:ts:`mod.wizards.form.defaults.tabs.form.accordions.postProcessor.showPostProcessors`)
+(:typoscript:`mod.wizards.form.defaults.tabs.form.accordions.postProcessor.showPostProcessors`)
 
 :aspect:`Property:`
     showPostProcessors
@@ -118,7 +118,7 @@ showPostProcessors
 postProcessors.[post-processor].showProperties
 ----------------------------------------------
 
-(:ts:`mod.wizards.form.defaults.tabs.form.accordions.postProcessor.postProcessors.[post-processor].showProperties`)
+(:typoscript:`mod.wizards.form.defaults.tabs.form.accordions.postProcessor.postProcessors.[post-processor].showProperties`)
 
 :aspect:`Property:`
     postProcessors.[post-processor].showProperties
@@ -129,7 +129,7 @@ postProcessors.[post-processor].showProperties
 :aspect:`Description:`
     Configuration for the post-processors individually.
 
-    The syntax is :ts:`postProcessors.[name of the post-processor].showProperties`.
+    The syntax is :typoscript:`postProcessors.[name of the post-processor].showProperties`.
 
 :aspect:`Default:`
     The following element properties are available:

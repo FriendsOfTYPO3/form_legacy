@@ -15,7 +15,7 @@ even HMENU in the FORM TypoScript.
 
 Due to technical limitations it is **not** possible to nest form objects
 inside content objects. The following nesting will not work:
-:ts:`FORM` > :ts:`COA` > :ts:`TEXTLINE`.
+:typoscript:`FORM` > :typoscript:`COA` > :typoscript:`TEXTLINE`.
 
 Furthermore, using cObjects is only allowed when **not** using the form
 content element/ wizard in the backend. This is due to security reasons.

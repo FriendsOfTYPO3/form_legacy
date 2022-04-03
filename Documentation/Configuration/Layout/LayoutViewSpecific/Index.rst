@@ -112,7 +112,7 @@ the following code could be applied.
 Properties and defaults
 =======================
 
-If the integrator does not define any :ts:`.layout` setting the default
+If the integrator does not define any :typoscript:`.layout` setting the default
 layout defined in the PHP classes will be used.
 
 The following list shows all available elements within all the different

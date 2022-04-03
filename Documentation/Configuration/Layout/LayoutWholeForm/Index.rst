@@ -23,7 +23,7 @@ Change the layout of the whole form
     Instead change the layout for a :ref:`specific view <change-layout-specific-view>`!
 
 Apart from the above mentioned problems one could change the layout globally
-using the following TypoScript setup. Using :ts:`tt_content.mailform.20`
+using the following TypoScript setup. Using :typoscript:`tt_content.mailform.20`
 registers the chances for all forms of the below the page tree. If one wants
 to change the layout only for a specific form, a TypoScript library could be
 build as shown :ref:`here <reference-form-example>`.
@@ -42,5 +42,5 @@ build as shown :ref:`here <reference-form-example>`.
   }
 
 As one can see, an (X)HTML kind of markup is used. Actually it is XML, with
-some extra tags like the :ts:`containerWrap`.
+some extra tags like the :typoscript:`containerWrap`.
 

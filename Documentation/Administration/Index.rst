@@ -8,7 +8,7 @@ Administration
 ==============
 
 Upon installation, the extension will set default properties in the page
-TSconfig in the variable :ts:`mod.wizards`.
+TSconfig in the variable :typoscript:`mod.wizards`.
 
 These properties may be modified for any particular page, BE user or BE
 user group and are described below.
