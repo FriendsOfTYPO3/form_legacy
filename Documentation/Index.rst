@@ -1,56 +1,62 @@
-﻿.. include:: Includes.txt
+﻿.. include:: /Includes.txt
 
-
-.. _start:
-
-====
-Form
-====
+=============
+Form (Legacy)
+=============
 
 :Extension key:
-    form
+   form_legacy
+
+:Package name:
+   friendsoftypo3/form-legacy
 
 :Version:
-    8
+   |release|
 
 :Language:
-    en
-
-:Description:
-    Form Library, Plugin and Wizard
-
-:Keywords:
-    form
-
-:Copyright:
-    2000-2016
+   en
 
 :Author:
-    TYPO3 CMS Core Development Team
+   Patrick Broens, Ralf Zimmermann & contributors
 
 :License:
-    Open Content License available from `www.opencontent.org/opl.shtml
-    <http://www.opencontent.org/opl.shtml>`_
+   This document is published under the
+   `Open Content License <https://www.openhub.net/licenses/opl>`__.
 
 :Rendered:
-    |today|
+   |today|
 
-The content of this document is related to TYPO3,
+----
 
-a GNU/GPL CMS/Framework available from `www.typo3.org
-<http://www.typo3.org/>`_
+Adds the legacy form extension from TYPO3 CMS 7 LTS to TYPO3 CMS 8 LTS.
 
+The functionality was part of TYPO3, until TYPO3 CMS 7 LTS, and moved into its
+own extension, receiving its own public repository.
 
+The new `Form extension`_ delivered with TYPO3 CMS 8 LTS substitutes this
+extension and form_legacy is available to achieve backwards compatibility when
+upgrading instances from core version 7 to 8.
 
+.. _Form extension: https://extensions.typo3.org/extension/form
 
-**Table of Contents**
+----
+
+**Table of Contents:**
 
 .. toctree::
-    :maxdepth: 5
-    :titlesonly:
-    :glob:
+   :maxdepth: 2
+   :titlesonly:
 
-    Introduction/Index
-    Administration/Index
-    Configuration/Index
-    Targets
+   Introduction/Index
+   Installation/Index
+   Administration/Index
+   Configuration/Index
+   Contribution/Index
+
+.. Meta Menu
+
+.. toctree::
+   :hidden:
+
+   Sitemap
+   genindex
