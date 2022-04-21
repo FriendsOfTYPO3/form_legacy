@@ -1,4 +1,4 @@
-﻿.. include:: ../Includes.txt
+﻿.. include:: /Includes.rst.txt
 
 
 .. _introduction:
@@ -28,3 +28,9 @@ configuration can be created just using a TypoScript like syntax.
 
 The screenshot shows the form wizard with some predefined form elements.
 
+Current state
+=============
+
+The latest version here reflects a feature-complete state. All newly based
+features for form elements, are now part of the new approach in TYPO3
+implemented directly.

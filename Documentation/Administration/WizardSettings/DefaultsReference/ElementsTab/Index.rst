@@ -1,4 +1,4 @@
-﻿.. include:: ../../../../Includes.txt
+﻿.. include:: /Includes.rst.txt
 
 
 .. _wizard-settings-defaults-elements-tab:
@@ -27,7 +27,7 @@ doing so, the element will be added at the end of the form.
 showAccordions
 ==============
 
-(:ts:`mod.wizards.form.defaults.tabs.elements.showAccordions`)
+(:typoscript:`mod.wizards.form.defaults.tabs.elements.showAccordions`)
 
 :aspect:`Property:`
     showAccordions
@@ -50,7 +50,7 @@ showAccordions
 showButtons
 ===========
 
-(:ts:`mod.wizards.form.defaults.tabs.elements.accordions.[NameOfAccordion].showButtons`)
+(:typoscript:`mod.wizards.form.defaults.tabs.elements.accordions.[NameOfAccordion].showButtons`)
 
 :aspect:`Property:`
     showButtons

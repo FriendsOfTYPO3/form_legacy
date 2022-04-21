@@ -1,4 +1,4 @@
-﻿.. include:: ../../../../Includes.txt
+﻿.. include:: /Includes.rst.txt
 
 
 .. _wizard-settings-defaults-showtabs:
@@ -7,7 +7,7 @@
 showTabs
 ========
 
-(:ts:`mod.wizards.form.defaults.showTabs`)
+(:typoscript:`mod.wizards.form.defaults.showTabs`)
 
 The configuration "showTabs" defines the outermost tabs on the left
 side of the form wizard.
@@ -33,7 +33,7 @@ side of the form wizard.
 tabs
 ====
 
-(:ts:`mod.wizards.form.defaults.tabs`)
+(:typoscript:`mod.wizards.form.defaults.tabs`)
 
 Each of the 3 tabs can be further customized.
 

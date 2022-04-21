@@ -2,7 +2,12 @@
 	"name": "friendsoftypo3/form-legacy",
 	"type": "typo3-cms-extension",
 	"description": "Legacy version 7 of ext:form",
-	"homepage": "https://typo3.org",
+	"homepage": "https://extensions.typo3.org/extension/form_legacy",
+	"support": {
+		"issues": "https://github.com/FriendsOfTYPO3/form_legacy/issues",
+		"source": "https://github.com/FriendsOfTYPO3/form_legacy",
+		"docs": "https://docs.typo3.org/p/friendsoftypo3/form-legacy/main/en-us/"
+	},
 	"license": ["GPL-2.0+"],
 
 	"require": {

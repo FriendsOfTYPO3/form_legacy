@@ -1,4 +1,4 @@
-﻿.. include:: ../../../../Includes.txt
+﻿.. include:: /Includes.rst.txt
 
 
 .. _wizard-settings-defaults-options-tab:
@@ -31,7 +31,7 @@ showAccordions
     showAccordions
 
 :aspect:`TypoScript Path:`
-    :ts:`mod.wizards.form.defaults.tabs.options.showAccordions`
+    :typoscript:`mod.wizards.form.defaults.tabs.options.showAccordions`
 
 :aspect:`Data type:`
     string
@@ -86,7 +86,7 @@ showProperties
     showProperties
 
 :aspect:`TypoScript Path:`
-    :ts:`mod.wizards.form.defaults.tabs.options.accordions.label.showProperties`
+    :typoscript:`mod.wizards.form.defaults.tabs.options.accordions.label.showProperties`
 
 :aspect:`Data type:`
     string
@@ -116,7 +116,7 @@ showProperties
     showProperties
 
 :aspect:`TypoScript Path:`
-    :ts:`mod.wizards.form.defaults.tabs.options.accordions.attributes.showProperties`
+    :typoscript:`mod.wizards.form.defaults.tabs.options.accordions.attributes.showProperties`
 
 :aspect:`Data type:`
     string
@@ -153,7 +153,7 @@ showRules
     showRules
 
 :aspect:`TypoScript Path:`
-    :ts:`mod.wizards.form.defaults.tabs.options.accordions.validation.showRules`
+    :typoscript:`mod.wizards.form.defaults.tabs.options.accordions.validation.showRules`
 
 :aspect:`Data type:`
     string
@@ -177,14 +177,14 @@ rules.[rule].showProperties
     rules.[rule].showProperties
 
 :aspect:`TypoScript Path:`
-    :ts:`mod.wizards.form.defaults.tabs.options.accordions.validation.rules.[rule].showProperties`
+    :typoscript:`mod.wizards.form.defaults.tabs.options.accordions.validation.rules.[rule].showProperties`
 
 :aspect:`Data type:`
     [array of objects]
 
 :aspect:`Description:`
     For each rule one can define which properties should appear.
-    The syntax is :ts:`rules.[name of the rule].showProperties`.
+    The syntax is :typoscript:`rules.[name of the rule].showProperties`.
 
 :aspect:`Default:`
     The following element properties are available:
@@ -230,7 +230,7 @@ showFilters
     showFilters
 
 :aspect:`TypoScript Path:`
-    :ts:`mod.wizards.form.defaults.tabs.options.accordions.filtering.showFilters`
+    :typoscript:`mod.wizards.form.defaults.tabs.options.accordions.filtering.showFilters`
 
 :aspect:`Data type:`
     string
@@ -255,7 +255,7 @@ filters.[filter].showProperties
     filters.[filter].showProperties
 
 :aspect:`TypoScript Path:`
-    :ts:`mod.wizards.form.defaults.tabs.options.accordions.filtering.filters.[filter].showProperties`
+    :typoscript:`mod.wizards.form.defaults.tabs.options.accordions.filtering.filters.[filter].showProperties`
 
 :aspect:`Data type:`
     string
@@ -265,7 +265,7 @@ filters.[filter].showProperties
     configuration. Only the filters which are mentioned below can be
     configured.
 
-    The syntax is :ts:`filters.[name of the filter].showProperties`.
+    The syntax is :typoscript:`filters.[name of the filter].showProperties`.
 
 :aspect:`Default:`
     The following element properties are available:

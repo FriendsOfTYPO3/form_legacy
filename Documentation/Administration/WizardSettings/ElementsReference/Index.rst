@@ -1,4 +1,4 @@
-﻿.. include:: ../../../Includes.txt
+﻿.. include:: /Includes.rst.txt
 
 
 .. _wizard-settings-elements:
@@ -22,8 +22,8 @@ Overriding element settings
 
 It is possible to override the default option tab settings for each
 element individually. This is done by using the same configuration as
-in :ts:`mod.wizards.form.defaults.tabs.options`, but using this
-configuration in :ts:`mod.wizards.form.elements.[elementName]`.
+in :typoscript:`mod.wizards.form.defaults.tabs.options`, but using this
+configuration in :typoscript:`mod.wizards.form.elements.[elementName]`.
 
 The example below will hide all the accordions within the option tab for
 a text field (TEXTLINE element), except the filters:
