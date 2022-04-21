@@ -15,7 +15,5 @@ Authors
 
 Over 100 contributors have been working on this area while this functionality
 was part of the TYPO3 Core. This package is now maintained by a loose group of
-TYPO3 enthusiasts inside the TYPO3 Community. Feel free to contact `Benni Mack`_
-for any questions regarding "form_legacy".
-
-.. _Benni Mack: benni.mack@typo3.org
+TYPO3 enthusiasts inside the TYPO3 Community. Feel free to contact them by
+clicking the "Contact" link in the footer.
